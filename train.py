@@ -59,7 +59,7 @@ data = np.array(data, dtype="float32") / 255.0
 targets = np.array(targets, dtype="float32")
 # partition the data into training and testing splits using 90% of
 # the data for training and the remaining 10% for testing
-split = train_test_split(data, targets, filenames, test_size=0.10,stratify=targets,
+split = train_test_split(data, targets, filenames, test_size=0.10,
 	random_state=42)
 # unpack the data split
 (trainImages, testImages) = split[:2]
