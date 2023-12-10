@@ -23,36 +23,48 @@ data = []
 targets = []
 filenames = []
 
+
 # loop over the rows
 for row in rows:
 	# break the row into the filename and bounding box coordinates
 	row = row.split(",")
 	(filename, startX, startY, endX, endY) = row
-	
+	print(row)
+	print(startX,startY)
+	print(endX,endY)
 	# derive the path to the input image, load the image (in OpenCV
 	# format), and grab its dimensions
 
-	image_files = os.listdir(config.IMAGES_PATH)
-	png_image_file = next(file for file in image_files if file.lower().endswith(".png"))
-	image_path = os.path.join(config.IMAGES_PATH, png_image_file)
-	
+	# derive the path to the input image, load the image (in OpenCV
+	# format), and grab its dimensions
+	image_path = os.path.sep.join([config.IMAGES_PATH, filename])
+	print("Processing image:", image_path)
 	image = cv2.imread(image_path)
 	(h, w) = image.shape[:2]
+
+	print(image.shape)
 	# scale the bounding box coordinates relative to the spatial
 	# dimensions of the input image
 	startX = float(startX) / w
 	startY = float(startY) / h
 	endX = float(endX) / w
 	endY = float(endY) / h
-	
+
+	# startX = int(startX)
+	# startY = int(startY)
+	# endX = int(endX)
+	# endY = int(endY)
+
+
 	# load the image and preprocess it
 	image = load_img(image_path, target_size=(224, 224))
 	image = img_to_array(image)
+	print(image.shape)
 	# update our list of data, targets, and filenames
 	data.append(image)
 	targets.append((startX, startY, endX, endY))
 	filenames.append(filename)
-	
+
 # convert the data and targets to NumPy arrays, scaling the input
 # pixel intensities from the range [0, 255] to [0, 1]
 data = np.array(data, dtype="float32") / 255.0

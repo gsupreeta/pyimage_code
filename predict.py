@@ -43,11 +43,19 @@ for imagePath in imagePaths:
 	# it, scaling the pixel intensities to the range [0, 1]
 	image = load_img(imagePath, target_size=(224, 224))
 	image = img_to_array(image) / 255.0
-	image = np.expand_dims(image, axis=0)    
+	image = np.expand_dims(image, axis=0) 
+
+
 
     	# make bounding box predictions on the input image
 	preds = model.predict(image)[0]
 	(startX, startY, endX, endY) = preds
+
+		
+	print("StartX:", startX)
+	print("StartY:", startY)
+	print("EndX:", endX)
+	print("EndY:", endY)
 	# load the input image (in OpenCV format), resize it such that it
 	# fits on our screen, and grab its dimensions
 	image = cv2.imread(imagePath)
@@ -55,10 +63,16 @@ for imagePath in imagePaths:
 	(h, w) = image.shape[:2]
 	# scale the predicted bounding box coordinates based on the image
 	# dimensions
+	print(image.shape)
 	startX = int(startX * w)
 	startY = int(startY * h)
 	endX = int(endX * w)
 	endY = int(endY * h)
+	
+	print("StartX:", startX)
+	print("StartY:", startY)
+	print("EndX:", endX)
+	print("EndY:", endY)
 	# draw the predicted bounding box on the image
 	cv2.rectangle(image, (startX, startY), (endX, endY),
 		(0, 255, 0), 2)

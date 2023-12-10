@@ -1,0 +1,465 @@
+{
+    "name": "dataset_iamges",
+    "securityToken": "dataset_iamges Token",
+    "sourceConnection": {
+        "name": "Images",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzM1Y2ZmZjhlYTRiZjY0ODZiYjJiN2NiZDNkNGU1ZWY3NjI0NGZmMmJiMzZiNzNjODY4YjY1YzNhNjdhZjc2M2RiYWNmMTA1NjNiMWE0ZmE5NDQ1OGFlZDEzY2VmMjgzODJkOWI4ZjI4NDYxZjhlMTYxMDhlYTBkMjgzMGQ1MTMwYzQxNGE0YTk2M2MzNzJjNTQ5Y2ZjYjA5NGExYzQ5YTMyMTRmZGQ5MjlkNjMxN2YxYWQ5MmZlNmQ5ZTFmMWJmIiwiaXYiOiJjZTdmODgxYTRmNTA4ZTQ0OThmOTg0ZmI0ZjA0ZGVjNzYzNDJkZGVlYjE3MDEzM2UifQ=="
+        },
+        "id": "n35ckgtHY"
+    },
+    "targetConnection": {
+        "name": "Images",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMmU1NTBiN2E1NWM1MWYwNmY3NTgwMDQzYzYxMzhlMjI1YTljMzVhYTYyYWFiZDhlZWM5NWNjMzdkMDZjZWI3NTU1ODY2ZGZjYzc3OTYwZTdjM2IzNTA2MzNlNzYyMTE2OGJiMzA2NWZiYmIzMTBhMzc2YWU4NDcxZjFhZjcxMmMyMDhlNGE0Y2FlYTEyNDdiMzhkNTI3MWQ2MTAzZGQzOWRlOTYyZDhjZTJhMmU0NjkyZDE3OGNiMTNmYWJjYjA4IiwiaXYiOiI2ZWMwZTAyOWMyMmY3ZjRhYmY1ODcxOTY2YmM5YTIzM2JiMjc4Y2EzY2Y1OGJjMTkifQ=="
+        },
+        "id": "n35ckgtHY"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "nrfp",
+            "color": "#FFFF00"
+        }
+    ],
+    "id": "_X0OXOqYX",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTkwZDA0MzFkMDExNmU4YmZiYjM2YjM1ZDk3YTMyZWJkNTZjN2YxZDg1NmFlMDYyNWMyYTExMDE0MzM4MmE3Yjg0MDA3MzE5NjU1NDE1ZWJhODlhNGU0ZWI0NDNlZGRiIiwiaXYiOiJjYzA3MDFlYjkxZmZmZDUzYTQxNDk1MmIzYjAxZDM0NDMzNWUxZmE5Y2Q5NDAxYzEifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "2eb23db288a1da6468e81786b802f459",
+    "assets": {
+        "b33e71cfbd98b86653fb5667ef61313a": {
+            "format": "png",
+            "id": "b33e71cfbd98b86653fb5667ef61313a",
+            "name": "image_1.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_1.png",
+            "size": {
+                "width": 316,
+                "height": 358
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4fddfb828869c19afeb70526a1cdda4b": {
+            "format": "png",
+            "id": "4fddfb828869c19afeb70526a1cdda4b",
+            "name": "image_10.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_10.png",
+            "size": {
+                "width": 466,
+                "height": 460
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2eb23db288a1da6468e81786b802f459": {
+            "format": "png",
+            "id": "2eb23db288a1da6468e81786b802f459",
+            "name": "image_11.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_11.png",
+            "size": {
+                "width": 382,
+                "height": 436
+            },
+            "state": 2,
+            "type": 1
+        },
+        "97207078768434266840d028ebe301e0": {
+            "format": "png",
+            "id": "97207078768434266840d028ebe301e0",
+            "name": "image_12.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_12.png",
+            "size": {
+                "width": 378,
+                "height": 444
+            },
+            "state": 1,
+            "type": 1
+        },
+        "55e1d618e5de84b4af6d26a047618bcc": {
+            "format": "png",
+            "id": "55e1d618e5de84b4af6d26a047618bcc",
+            "name": "image_13.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_13.png",
+            "size": {
+                "width": 415,
+                "height": 502
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8873a14c9afd3fcbc132a32cdde84b69": {
+            "format": "png",
+            "id": "8873a14c9afd3fcbc132a32cdde84b69",
+            "name": "image_14.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_14.png",
+            "size": {
+                "width": 370,
+                "height": 370
+            },
+            "state": 1,
+            "type": 1
+        },
+        "adef1cc827bc74c31ba502b6e2b48610": {
+            "format": "png",
+            "id": "adef1cc827bc74c31ba502b6e2b48610",
+            "name": "image_15.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_15.png",
+            "size": {
+                "width": 324,
+                "height": 334
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c68d0a8d407350899487fe03fdc71e2": {
+            "format": "png",
+            "id": "1c68d0a8d407350899487fe03fdc71e2",
+            "name": "image_16.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_16.png",
+            "size": {
+                "width": 343,
+                "height": 385
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9a5322ee8a3abc1eab8dc179ae3117cd": {
+            "format": "png",
+            "id": "9a5322ee8a3abc1eab8dc179ae3117cd",
+            "name": "image_17.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_17.png",
+            "size": {
+                "width": 394,
+                "height": 387
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4328c601bb8e8e0bf011fe2396463161": {
+            "format": "png",
+            "id": "4328c601bb8e8e0bf011fe2396463161",
+            "name": "image_18.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_18.png",
+            "size": {
+                "width": 316,
+                "height": 358
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f4f49152c7beed1a5e5c22677baab36f": {
+            "format": "png",
+            "id": "f4f49152c7beed1a5e5c22677baab36f",
+            "name": "image_19.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_19.png",
+            "size": {
+                "width": 358,
+                "height": 316
+            },
+            "state": 2,
+            "type": 1
+        },
+        "834c38d8e14fdf3d57b26a96f538cad8": {
+            "format": "png",
+            "id": "834c38d8e14fdf3d57b26a96f538cad8",
+            "name": "image_2.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_2.png",
+            "size": {
+                "width": 271,
+                "height": 403
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ae40ee58cb7ac3143a8e1f15a8847c3a": {
+            "format": "png",
+            "id": "ae40ee58cb7ac3143a8e1f15a8847c3a",
+            "name": "image_20.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_20.png",
+            "size": {
+                "width": 358,
+                "height": 316
+            },
+            "state": 2,
+            "type": 1
+        },
+        "72941101cbf6f911013dc94805f7beaf": {
+            "format": "png",
+            "id": "72941101cbf6f911013dc94805f7beaf",
+            "name": "image_21.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_21.png",
+            "size": {
+                "width": 403,
+                "height": 271
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5860d01418f4a88a45d2a4c58ddd434a": {
+            "format": "png",
+            "id": "5860d01418f4a88a45d2a4c58ddd434a",
+            "name": "image_24.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_24.png",
+            "size": {
+                "width": 391,
+                "height": 289
+            },
+            "state": 2,
+            "type": 1
+        },
+        "005364a37910b222503089488dd268bb": {
+            "format": "png",
+            "id": "005364a37910b222503089488dd268bb",
+            "name": "image_25.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_25.png",
+            "size": {
+                "width": 289,
+                "height": 391
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba2d2792fa84adc517e9e0614cf05e37": {
+            "format": "png",
+            "id": "ba2d2792fa84adc517e9e0614cf05e37",
+            "name": "image_26.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_26.png",
+            "size": {
+                "width": 391,
+                "height": 289
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2eae37379dc2dce4ae03af6c0d08d79b": {
+            "format": "png",
+            "id": "2eae37379dc2dce4ae03af6c0d08d79b",
+            "name": "image_27.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_27.png",
+            "size": {
+                "width": 238,
+                "height": 222
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98e289ba50a81565cd689ada2ae5b439": {
+            "format": "png",
+            "id": "98e289ba50a81565cd689ada2ae5b439",
+            "name": "image_28.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_28.png",
+            "size": {
+                "width": 222,
+                "height": 238
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5930e1c9576ca043ab8e1ce6116dfb50": {
+            "format": "png",
+            "id": "5930e1c9576ca043ab8e1ce6116dfb50",
+            "name": "image_29.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_29.png",
+            "size": {
+                "width": 238,
+                "height": 222
+            },
+            "state": 2,
+            "type": 1
+        },
+        "43e160aa289b8e68ff63bb44b5f6b5c9": {
+            "format": "png",
+            "id": "43e160aa289b8e68ff63bb44b5f6b5c9",
+            "name": "image_3.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_3.png",
+            "size": {
+                "width": 289,
+                "height": 391
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5cd7d30ee438f9fe714133cfe9f93e3a": {
+            "format": "png",
+            "id": "5cd7d30ee438f9fe714133cfe9f93e3a",
+            "name": "image_30.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_30.png",
+            "size": {
+                "width": 282,
+                "height": 268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "105c53b3c31097844639e503c1d3bf4b": {
+            "format": "png",
+            "id": "105c53b3c31097844639e503c1d3bf4b",
+            "name": "image_31.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_31.png",
+            "size": {
+                "width": 268,
+                "height": 282
+            },
+            "state": 2,
+            "type": 1
+        },
+        "efc8ff764548350d58d07327e0e236df": {
+            "format": "png",
+            "id": "efc8ff764548350d58d07327e0e236df",
+            "name": "image_32.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_32.png",
+            "size": {
+                "width": 268,
+                "height": 282
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5bf6159a64d2ab1cc06df242baf43e0": {
+            "format": "png",
+            "id": "b5bf6159a64d2ab1cc06df242baf43e0",
+            "name": "image_33.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_33.png",
+            "size": {
+                "width": 447,
+                "height": 373
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c1215583c32bef34fdbe3d52e0c94288": {
+            "format": "png",
+            "id": "c1215583c32bef34fdbe3d52e0c94288",
+            "name": "image_34.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_34.png",
+            "size": {
+                "width": 373,
+                "height": 447
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d008bf24b880473a7cd2c4a88ed96ee8": {
+            "format": "png",
+            "id": "d008bf24b880473a7cd2c4a88ed96ee8",
+            "name": "image_4.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_4.png",
+            "size": {
+                "width": 222,
+                "height": 238
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a83fcdd01766b49b56091ce0d294d9c0": {
+            "format": "png",
+            "id": "a83fcdd01766b49b56091ce0d294d9c0",
+            "name": "image_5.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_5.png",
+            "size": {
+                "width": 282,
+                "height": 268
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d02c51fb86738d692f8c08e101aaff6b": {
+            "format": "png",
+            "id": "d02c51fb86738d692f8c08e101aaff6b",
+            "name": "image_6.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_6.png",
+            "size": {
+                "width": 412,
+                "height": 454
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2cef7e2ba3321a3fbb78645697ca5664": {
+            "format": "png",
+            "id": "2cef7e2ba3321a3fbb78645697ca5664",
+            "name": "image_7.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_7.png",
+            "size": {
+                "width": 427,
+                "height": 435
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a11232ec6a216655f3b1f8d1b46cd73a": {
+            "format": "png",
+            "id": "a11232ec6a216655f3b1f8d1b46cd73a",
+            "name": "image_8.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_8.png",
+            "size": {
+                "width": 373,
+                "height": 447
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ae7628fe02b7e92ec0f60df9b35fa64": {
+            "format": "png",
+            "id": "1ae7628fe02b7e92ec0f60df9b35fa64",
+            "name": "image_9.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_9.png",
+            "size": {
+                "width": 448,
+                "height": 481
+            },
+            "state": 2,
+            "type": 1
+        },
+        "50efc48c0898ccd06b7ef8112632b873": {
+            "format": "png",
+            "id": "50efc48c0898ccd06b7ef8112632b873",
+            "name": "image_35.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_35.png",
+            "size": {
+                "width": 447,
+                "height": 373
+            },
+            "state": 2,
+            "type": 1
+        },
+        "590b51df457f240119fc8b16fe0e9c2b": {
+            "format": "png",
+            "id": "590b51df457f240119fc8b16fe0e9c2b",
+            "name": "image_22.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_22.png",
+            "size": {
+                "width": 403,
+                "height": 271
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4b4e1d2a280ec834673878ead3deb04a": {
+            "format": "png",
+            "id": "4b4e1d2a280ec834673878ead3deb04a",
+            "name": "image_23.png",
+            "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_23.png",
+            "size": {
+                "width": 271,
+                "height": 403
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}

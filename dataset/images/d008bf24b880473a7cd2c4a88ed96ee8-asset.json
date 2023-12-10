@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "d008bf24b880473a7cd2c4a88ed96ee8",
+        "name": "image_4.png",
+        "path": "file:/home/supreeta/Documents/HiWi/Objekterkennung/pyimage_code/dataset/images/image_4.png",
+        "size": {
+            "width": 222,
+            "height": 238
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "DLcjPgo5M",
+            "type": "RECTANGLE",
+            "tags": [
+                "nrfp"
+            ],
+            "boundingBox": {
+                "height": 97.89135254988913,
+                "width": 145.97621878715813,
+                "left": 38.45734244946492,
+                "top": 13.456762749445677
+            },
+            "points": [
+                {
+                    "x": 38.45734244946492,
+                    "y": 13.456762749445677
+                },
+                {
+                    "x": 184.43356123662306,
+                    "y": 13.456762749445677
+                },
+                {
+                    "x": 184.43356123662306,
+                    "y": 111.34811529933481
+                },
+                {
+                    "x": 38.45734244946492,
+                    "y": 111.34811529933481
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
